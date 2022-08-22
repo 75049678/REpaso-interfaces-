@@ -1,5 +1,5 @@
 
-public class Perro extends Animal Implements Mascotas  {
+public class Perro extends Animal implements Mascotas  {
 
     private int edad;
     private String nombrePerro;
@@ -16,7 +16,7 @@ public class Perro extends Animal Implements Mascotas  {
 
     @Override
     public void bañar() {
-        System.out.println("Bañando a:"+ this.nombrePerro);
+        System.out.println("Bañando a: "+this.nombrePerro);
     }
 
     @Override
@@ -26,11 +26,11 @@ public class Perro extends Animal Implements Mascotas  {
 
     @Override
     public void comer() {
-        System.out.println("El perro Come Concentrado, en un plato");
+        System.out.println("El Perro come Concentrado, en un plato");
     }
 
     @Override
     public void respirar() {
-        System.out.println("El perro respira solo. ");
+        System.out.println("El Perro respira solo.");
     }
 }

@@ -26,8 +26,8 @@ public abstract class Animal {
 
     public void nacer(){
         System.out.println("Nacimiento del Animal");
-
     }
+
     public abstract void comer();
     public abstract void respirar();
-    }
+}
